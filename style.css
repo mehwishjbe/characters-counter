@@ -28,18 +28,21 @@ body {
   border: solid 2px darkgray;
 }
 
-.counter-container{
+.counter-container {
   display: flex;
   justify-content: space-between;
   padding: 0px 5px;
 }
 
-.counter-container p{
+.counter-container p {
   font-size: 18px;
   color: gray;
 }
 
-.total-counter{
+.total-counter {
   color: blueviolet;
-  
+}
+
+.remaining-counter {
+  color: orangered;
 }
